@@ -1,0 +1,66 @@
+body {
+    font-family: EB Garamond,serif;
+    color: rgba(0,0,0,.87);
+    padding: 2rem;
+}
+
+div#app {
+    margin: 0 auto;
+    width: 60%;
+    min-width: 500px;
+}
+
+h1 {
+    font-size: 4rem;
+    line-height: 5rem;
+    font-weight: 300;
+    margin-bottom: 58px;
+}
+
+h1 b {
+    font-weight: bold;
+}
+
+ul {
+    padding-left: 0;
+}
+
+ul li {
+    list-style: none;
+}
+
+ul#experience {
+    font-size: 1.5em;
+    margin-bottom: 58px;
+}
+
+ul#experience li em{
+    font-weight: 700;
+    font-style: italic;
+    display: inline-block;
+    padding-right: 1rem;
+}
+
+ul#experience li span.company {
+    padding-right: 0.5em;
+    cursor: pointer;
+
+}
+
+
+ul#experience li span.company:hover {
+    color: #ddd;
+}
+
+ul#link li {
+    text-transform: uppercase;
+    margin-bottom: .5em;
+    font-family: Overpass,sans-serif;
+    letter-spacing: .2rem;
+    font-size: 12px;
+    font-weight: 700;
+}
+ul#link li:hover {
+    color: #c7c7c7;
+    cursor: pointer;
+}
